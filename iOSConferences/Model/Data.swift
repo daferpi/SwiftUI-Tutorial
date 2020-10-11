@@ -29,4 +29,12 @@ func loadFile<T: Decodable>(_ filename: String ) -> T {
     }
 }
 
+extension Date {
+    func dateToString() -> String {
+        let format = DateFormatter()
+        format.dateFormat = "MMM dd, yyyy"
+        return format.string(from: self)
+    }
+}
+
 let conferencesData: [Conference] = loadFile("conferencesData.json")

@@ -13,9 +13,11 @@ struct ConferenceListView: View {
 
         NavigationView {
             List(conferencesData) { conference in
-                VStack(alignment: .leading) {
-                    Text(conference.name).font(.headline)
-                    Text(conference.location).font(.subheadline)
+                NavigationLink(destination: ConferenceDetails(conference: conference)) {
+                    VStack(alignment: .leading) {
+                        Text(conference.name).font(.headline)
+                        Text(conference.location).font(.subheadline)
+                    }
                 }
             }.navigationBarTitle("Conferences")
         }

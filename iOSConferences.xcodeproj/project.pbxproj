@@ -17,6 +17,7 @@
 		D6B08B513DC7160D80A4A6CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B08A5073F29725EEB2C64C /* SceneDelegate.swift */; };
 		D6B08CE88AC39A208778B43D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B08B8387CAA25F7DE29F7A /* LaunchScreen.storyboard */; };
 		D6B08D4B1EA47492A1CDCA58 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B08D1D4D6DA2E4FCE2A519 /* Data.swift */; };
+		D6B08EF3FD363E4797C4CE88 /* ConferenceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0866AB7A47C39976651B2 /* ConferenceDetails.swift */; };
 		D6B08F8F5A0C42AF17298E5A /* conferencesData.json in Resources */ = {isa = PBXBuildFile; fileRef = D6B0802CF75AD127573BC516 /* conferencesData.json */; };
 		D6B08FD9B59D689C8CC8702F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B08311477692979CFF9B10 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +51,7 @@
 		D6B084FB4C7EC375E9CEA801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		D6B085FA20124BC9DC6F390F /* Conference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conference.swift; sourceTree = "<group>"; };
 		D6B0860E7F3FF6B6E7E8CF15 /* ConferenceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConferenceListView.swift; sourceTree = "<group>"; };
+		D6B0866AB7A47C39976651B2 /* ConferenceDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceDetails.swift; sourceTree = "<group>"; };
 		D6B0874BEB658701758F35FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6B087AAE04A6907E6CFD09C /* iOSConferencesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSConferencesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B089EA8F19129BF2C859D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				D6B0818A91BBE1D860785ABA /* Preview Content */,
 				D6B08C8A11AA7ADA00C8CC6A /* Resources */,
 				D6B0887D153BED7E8F39015E /* Model */,
+				D6B0866AB7A47C39976651B2 /* ConferenceDetails.swift */,
 			);
 			path = iOSConferences;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				D6B08D4B1EA47492A1CDCA58 /* Data.swift in Sources */,
 				D6B08335F40AE197330592C5 /* Conference.swift in Sources */,
 				D6B082D7618ACE3E4461D7D3 /* Readme.md in Sources */,
+				D6B08EF3FD363E4797C4CE88 /* ConferenceDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
