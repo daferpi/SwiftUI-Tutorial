@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5D9318BAE14AC504EDCF23 /* Pods_iOSConferences.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57298BCA43728CCA58BFD98 /* Pods_iOSConferences.framework */; };
+		59AF2445712C3B381B1FA5E9 /* Pods_iOSConferencesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C64CA0973F393FE7B29B06 /* Pods_iOSConferencesTests.framework */; };
+		D6B080199EDC9EA8C3A39DDA /* ConferenceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0828F248216DFAA6C6C28 /* ConferenceLoader.swift */; };
 		D6B082D7618ACE3E4461D7D3 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = D6B08A0AD73DC780453D44E3 /* Readme.md */; };
 		D6B082E20540B5490ED6CDE8 /* ConferenceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0860E7F3FF6B6E7E8CF15 /* ConferenceListView.swift */; };
 		D6B08335F40AE197330592C5 /* Conference.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B085FA20124BC9DC6F390F /* Conference.swift */; };
@@ -20,6 +23,7 @@
 		D6B08EF3FD363E4797C4CE88 /* ConferenceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B0866AB7A47C39976651B2 /* ConferenceDetails.swift */; };
 		D6B08F8F5A0C42AF17298E5A /* conferencesData.json in Resources */ = {isa = PBXBuildFile; fileRef = D6B0802CF75AD127573BC516 /* conferencesData.json */; };
 		D6B08FD9B59D689C8CC8702F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B08311477692979CFF9B10 /* AppDelegate.swift */; };
+		FEF5695AD3626760F0822637 /* Pods_iOSConferences_iOSConferencesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002DC955E03AC8DE55ABA94D /* Pods_iOSConferences_iOSConferencesUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		002DC955E03AC8DE55ABA94D /* Pods_iOSConferences_iOSConferencesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSConferences_iOSConferencesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A51E49B77875E2B612277409 /* Pods-iOSConferences.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSConferences.debug.xcconfig"; path = "Target Support Files/Pods-iOSConferences/Pods-iOSConferences.debug.xcconfig"; sourceTree = "<group>"; };
+		B0ED320FE2A5E65B63D3D313 /* Pods-iOSConferencesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSConferencesTests.release.xcconfig"; path = "Target Support Files/Pods-iOSConferencesTests/Pods-iOSConferencesTests.release.xcconfig"; sourceTree = "<group>"; };
+		B7C64CA0973F393FE7B29B06 /* Pods_iOSConferencesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSConferencesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3E70699BA0594F04C0205A1 /* Pods-iOSConferences.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSConferences.release.xcconfig"; path = "Target Support Files/Pods-iOSConferences/Pods-iOSConferences.release.xcconfig"; sourceTree = "<group>"; };
+		C57298BCA43728CCA58BFD98 /* Pods_iOSConferences.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSConferences.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC7F54C96CAEC1C16C1A5B75 /* Pods-iOSConferences-iOSConferencesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSConferences-iOSConferencesUITests.release.xcconfig"; path = "Target Support Files/Pods-iOSConferences-iOSConferencesUITests/Pods-iOSConferences-iOSConferencesUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D6B0802CF75AD127573BC516 /* conferencesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = conferencesData.json; sourceTree = "<group>"; };
 		D6B081253E03B7BD8520623B /* iOSConferencesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSConferencesTests.swift; sourceTree = "<group>"; };
+		D6B0828F248216DFAA6C6C28 /* ConferenceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConferenceLoader.swift; sourceTree = "<group>"; };
 		D6B082E22BE14B8CED319AAB /* iOSConferences.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSConferences.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6B08311477692979CFF9B10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6B0839E9132D99FAB7DB7FA /* iOSConferencesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSConferencesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,6 +71,8 @@
 		D6B08A5073F29725EEB2C64C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D6B08BCEE0F88B7866C3C1E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6B08D1D4D6DA2E4FCE2A519 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		EA0576203EC246292F51641E /* Pods-iOSConferencesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSConferencesTests.debug.xcconfig"; path = "Target Support Files/Pods-iOSConferencesTests/Pods-iOSConferencesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FBCCB9989ACAA29BD214A5F7 /* Pods-iOSConferences-iOSConferencesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSConferences-iOSConferencesUITests.debug.xcconfig"; path = "Target Support Files/Pods-iOSConferences-iOSConferencesUITests/Pods-iOSConferences-iOSConferencesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59AF2445712C3B381B1FA5E9 /* Pods_iOSConferencesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF5695AD3626760F0822637 /* Pods_iOSConferences_iOSConferencesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +96,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5D9318BAE14AC504EDCF23 /* Pods_iOSConferences.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C8699FFC94DB9185C6FA2F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A51E49B77875E2B612277409 /* Pods-iOSConferences.debug.xcconfig */,
+				C3E70699BA0594F04C0205A1 /* Pods-iOSConferences.release.xcconfig */,
+				FBCCB9989ACAA29BD214A5F7 /* Pods-iOSConferences-iOSConferencesUITests.debug.xcconfig */,
+				CC7F54C96CAEC1C16C1A5B75 /* Pods-iOSConferences-iOSConferencesUITests.release.xcconfig */,
+				EA0576203EC246292F51641E /* Pods-iOSConferencesTests.debug.xcconfig */,
+				B0ED320FE2A5E65B63D3D313 /* Pods-iOSConferencesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D6B0801F3492C4D7F6DEFEF5 /* iOSConferences */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,6 +166,7 @@
 			children = (
 				D6B08D1D4D6DA2E4FCE2A519 /* Data.swift */,
 				D6B085FA20124BC9DC6F390F /* Conference.swift */,
+				D6B0828F248216DFAA6C6C28 /* ConferenceLoader.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -164,7 +196,19 @@
 				D6B0872E6C2F39AAAC3FB551 /* iOSConferencesTests */,
 				D6B08BFF3F9E90390F570A06 /* iOSConferencesUITests */,
 				D6B08A0AD73DC780453D44E3 /* Readme.md */,
+				1C8699FFC94DB9185C6FA2F7 /* Pods */,
+				FC21A64586CA21679DD9DEEA /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		FC21A64586CA21679DD9DEEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C57298BCA43728CCA58BFD98 /* Pods_iOSConferences.framework */,
+				002DC955E03AC8DE55ABA94D /* Pods_iOSConferences_iOSConferencesUITests.framework */,
+				B7C64CA0973F393FE7B29B06 /* Pods_iOSConferencesTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6B0891EA64A4943A9209925 /* Build configuration list for PBXNativeTarget "iOSConferences" */;
 			buildPhases = (
+				832805BA81688BFB8908D852 /* [CP] Check Pods Manifest.lock */,
 				D6B0891DA1C9B47468AB03A0 /* Sources */,
 				D6B08CB41229954A5343A927 /* Frameworks */,
 				D6B081739F83CCF108427B6B /* Resources */,
+				8077635ACC0EB793562821F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +237,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6B08C378B3D4914DE82304C /* Build configuration list for PBXNativeTarget "iOSConferencesTests" */;
 			buildPhases = (
+				7D7EBDD5F2193DFBE7C3C54E /* [CP] Check Pods Manifest.lock */,
 				D6B0838C501484D165DEBF8F /* Sources */,
 				D6B08940739E9E2FE3242352 /* Frameworks */,
 				D6B082EB6C922DF2598352D1 /* Resources */,
@@ -209,9 +256,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D6B08C0CA0D868F0E184A817 /* Build configuration list for PBXNativeTarget "iOSConferencesUITests" */;
 			buildPhases = (
+				BDF9138E91E95EF47FBCC43C /* [CP] Check Pods Manifest.lock */,
 				D6B08D250576C33DF395D704 /* Sources */,
 				D6B08B66EE6B59BC38D578D2 /* Frameworks */,
 				D6B08398B5782D16DD6D66E7 /* Resources */,
+				BBDAB1BF18F85BFF16BA7CEF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -278,6 +327,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7D7EBDD5F2193DFBE7C3C54E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSConferencesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8077635ACC0EB793562821F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSConferences/Pods-iOSConferences-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Yams/Yams.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Yams.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSConferences/Pods-iOSConferences-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		832805BA81688BFB8908D852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSConferences-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBDAB1BF18F85BFF16BA7CEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOSConferences-iOSConferencesUITests/Pods-iOSConferences-iOSConferencesUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Yams/Yams.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Yams.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOSConferences-iOSConferencesUITests/Pods-iOSConferences-iOSConferencesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF9138E91E95EF47FBCC43C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSConferences-iOSConferencesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D6B0838C501484D165DEBF8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -298,6 +452,7 @@
 				D6B08335F40AE197330592C5 /* Conference.swift in Sources */,
 				D6B082D7618ACE3E4461D7D3 /* Readme.md in Sources */,
 				D6B08EF3FD363E4797C4CE88 /* ConferenceDetails.swift in Sources */,
+				D6B080199EDC9EA8C3A39DDA /* ConferenceLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +553,7 @@
 		};
 		D6B08362BC17961F907BCC7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7F54C96CAEC1C16C1A5B75 /* Pods-iOSConferences-iOSConferencesUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOSConferencesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -465,6 +621,7 @@
 		};
 		D6B088D1F7F6CFEC4C7BDA8E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBCCB9989ACAA29BD214A5F7 /* Pods-iOSConferences-iOSConferencesUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = iOSConferencesUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -478,6 +635,7 @@
 		};
 		D6B08A08C1CC2AE42320FAC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0ED320FE2A5E65B63D3D313 /* Pods-iOSConferencesTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSConferences.app/iOSConferences";
 				INFOPLIST_FILE = iOSConferencesTests/Info.plist;
@@ -492,6 +650,7 @@
 		};
 		D6B08DDBF116B3B003332997 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA0576203EC246292F51641E /* Pods-iOSConferencesTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSConferences.app/iOSConferences";
 				INFOPLIST_FILE = iOSConferencesTests/Info.plist;
@@ -506,15 +665,14 @@
 		};
 		D6B08EBF36F37B9EFC951F96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3E70699BA0594F04C0205A1 /* Pods-iOSConferences.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSConferences/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOSConferences/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"\"-Xlinker -interposable\"",
-				);
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
 				PRODUCT_BUNDLE_IDENTIFIER = org.daferpi.iOSConferences;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -524,15 +682,14 @@
 		};
 		D6B08FA607E95D7B6A3C8BB6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51E49B77875E2B612277409 /* Pods-iOSConferences.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_ASSET_PATHS = "\"iOSConferences/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOSConferences/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"\"-Xlinker -interposable\"",
-				);
+				OTHER_LDFLAGS = "\"-Xlinker -interposable\"";
 				PRODUCT_BUNDLE_IDENTIFIER = org.daferpi.iOSConferences;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

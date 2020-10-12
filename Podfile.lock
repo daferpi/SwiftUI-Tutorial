@@ -1,0 +1,16 @@
+PODS:
+  - Yams (4.0.0)
+
+DEPENDENCIES:
+  - Yams
+
+SPEC REPOS:
+  trunk:
+    - Yams
+
+SPEC CHECKSUMS:
+  Yams: 9d49b85824751ee13d31e9ec6617c4dfb9a8c3cd
+
+PODFILE CHECKSUM: 56bd916ee6c333c1d8ea15aeacf33243876f0b0c
+
+COCOAPODS: 1.9.3

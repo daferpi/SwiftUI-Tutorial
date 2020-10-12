@@ -9,10 +9,11 @@
 import SwiftUI
 
 struct ConferenceListView: View {
+    @ObservedObject var conferenceLoader = ConferenceLoader()
     var body: some View {
 
         NavigationView {
-            List(conferencesData) { conference in
+            List(conferenceLoader.conferences) { conference in
                 NavigationLink(destination: ConferenceDetails(conference: conference)) {
                     VStack(alignment: .leading) {
                         Text(conference.name).font(.headline)
