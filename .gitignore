@@ -1,3 +1,5 @@
 /.gradle/
 /.idea/
 /iOSConferences.xcodeproj/xcuserdata/abel.fernandez.xcuserdatad/xcschemes/
+/Pods/
+.DS_Store
